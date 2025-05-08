@@ -1,0 +1,12 @@
+Thu May 08 2025 12:06:12 GMT+0530 (India Standard Time) - Application started 
+Thu May 08 2025 12:06:12 GMT+0530 (India Standard Time) - Application event occuured 
+Thu May 08 2025 12:06:15 GMT+0530 (India Standard Time) - Current memory usage: 48.94 
+Thu May 08 2025 12:06:18 GMT+0530 (India Standard Time) - Current memory usage: 48.94 
+Thu May 08 2025 12:06:21 GMT+0530 (India Standard Time) - Current memory usage: 49.00 
+Thu May 08 2025 12:06:24 GMT+0530 (India Standard Time) - Current memory usage: 48.92 
+Thu May 08 2025 12:06:27 GMT+0530 (India Standard Time) - Current memory usage: 48.96 
+Thu May 08 2025 12:06:30 GMT+0530 (India Standard Time) - Current memory usage: 48.92 
+Thu May 08 2025 12:06:33 GMT+0530 (India Standard Time) - Current memory usage: 48.91 
+Thu May 08 2025 12:06:36 GMT+0530 (India Standard Time) - Current memory usage: 48.88 
+Thu May 08 2025 12:06:39 GMT+0530 (India Standard Time) - Current memory usage: 48.81 
+Thu May 08 2025 12:06:42 GMT+0530 (India Standard Time) - Current memory usage: 48.90 
