@@ -1,7 +1,7 @@
 import express from "express"
-
+import 'dotenv/config'
 const app = express();
-const port = 3000;
+const port = process.env.PORT ||  3000;
 
 // app.get("/",(req, res) => {
 //     res.send("Hello I am learning express :)")
@@ -13,9 +13,10 @@ const port = 3000;
 //     res.send("This is coffee page :)")
 // })
 
-app.use(express.json())
+
 let coffeeData = []
 let indexId = 1
+app.use(express.json())
 
 //Add a new coffee
 app.post("/coffee", (req, res) => {
