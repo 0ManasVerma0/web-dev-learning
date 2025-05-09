@@ -20,6 +20,7 @@ app.use(express.json())
 
 //Add a new coffee
 app.post("/coffee", (req, res) => {
+    console.log("POST")
     const {name, price} = req.body;
     const newCoffee = {
         id: indexId++,
@@ -32,11 +33,13 @@ app.post("/coffee", (req, res) => {
 
 //get all coffee 
 app.get("/coffee", (req, res) => {
+    console.log("GET")
     res.status(200).send(coffeeData)
 })
 
 //Get a coffee with id
 app.get("/coffee/:id", (req, res) => {
+    console.log("GET")
     const coffee = coffeeData.find((coffee) => coffee.id === parseInt(req.params.id));
     if(!coffee){
         return res.status(404).send("Coffee not found")
@@ -46,6 +49,7 @@ app.get("/coffee/:id", (req, res) => {
 
 //Update coffee
 app.put("/coffee/:id", (req, res) => {
+    console.log("PUT")
     const coffee = coffeeData.find((coffee) => coffee.id === parseInt(req.params.id));
     if(!coffee){
         return res.status(404).send("Coffee not found");
@@ -58,6 +62,7 @@ app.put("/coffee/:id", (req, res) => {
 
 //Delete Coffee
 app.delete("/coffee/:id", (req, res) => {
+    console.log("DELETE")
     const index = coffeeData.findIndex((coffee) => coffee.id === parseInt(req.params.id));
     if(index === -1){
         return res.status(404).send("Coffee not found")
